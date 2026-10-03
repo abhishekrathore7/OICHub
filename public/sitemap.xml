@@ -6,16 +6,5 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <url>
-    <loc>https://oicinterviewquestions.in/#oic</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-   <url>
-    <loc>https://oicinterviewquestions.in/#vbcs</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
+  
 </urlset>
