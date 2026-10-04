@@ -10,7 +10,7 @@ const vbcsQuestions = [
     question:
       "What is the difference between an Array Data Provider (ADP) and a Service Data Provider (SDP)?",
     answer:
-      "An ADP is generally used when the application already has array-based data available on the client side. An SDP is designed to work with service-based data, typically REST endpoints, and provides capabilities such as fetching, paging and interacting with remote data. The choice depends on whether the data is local or service-backed."
+      "An Array Data Provider (ADP) is primarily used when the data is already available in the application as an array or collection. It is suitable for small to moderate amounts of data that can be loaded and managed on the client side. A Service Data Provider (SDP) is designed for service-backed data, typically from REST APIs. It is more suitable for large datasets because data can be fetched from the backend as required and can support features such as server-side pagination, filtering, sorting, and fetching data on demand."
   },
 
   {
