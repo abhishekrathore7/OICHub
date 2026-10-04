@@ -10,7 +10,9 @@ function QuestionList() {
             {index + 1}. {item.question}
           </h3>
 
-          <p>{item.answer}</p>
+          <p>
+  <strong>Answer:</strong> {item.answer}
+</p>
         </article>
       ))}
     </div>
@@ -57,15 +59,14 @@ function VBCSQuestions() {
           <div className="container">
             <p className="eyebrow">ORACLE VISUAL BUILDER</p>
 
-            <h1>
-              VBCS Interview Questions
-            </h1>
+            <h1>VBCS Interview Questions and Answers</h1>
 
             <p className="hero-text">
-              Practical Visual Builder Cloud Service interview questions and
-              answers covering Business Objects, REST APIs, Service
-              Connections, Oracle JET, ADP, SDP and real-world scenarios.
-            </p>
+  Prepare for Visual Builder Cloud Service interviews with practical,
+  scenario-based questions and answers covering Business Objects, REST APIs,
+  Service Connections, Oracle JET, ADP, SDP and real-world application
+  development scenarios.
+</p>
           </div>
         </section>
 
@@ -76,9 +77,26 @@ function VBCSQuestions() {
             <h2>
               Visual Builder Cloud Service Interview Questions and Answers
             </h2>
+
+            <p>
+  These VBCS interview questions focus on practical application development
+  scenarios rather than only definitions. They cover Business Objects, REST
+  APIs, Service Connections, Oracle JET, SDP, ADP and real-world Visual
+  Builder development.
+</p>
           </div>
 
-          <QuestionList />
+          <div className="question-list-intro">
+  <h2>Practical VBCS Interview Questions</h2>
+
+  <p>
+    Use these questions to prepare for real-world Visual Builder Cloud Service
+    interview discussions, including application development, REST APIs,
+    Business Objects, Service Connections and Oracle JET.
+  </p>
+</div>
+
+<QuestionList />
         </section>
       </main>
 
