@@ -3,8 +3,14 @@
 
   <url>
     <loc>https://oicinterviewquestions.in/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
   </url>
-  
+
+  <url>
+    <loc>https://oicinterviewquestions.in/oic-interview-questions</loc>
+  </url>
+
+  <url>
+    <loc>https://oicinterviewquestions.in/vbcs-interview-questions</loc>
+  </url>
+
 </urlset>

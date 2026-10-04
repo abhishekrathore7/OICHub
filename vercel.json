@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/oic-interview-questions",
+      "destination": "/"
+    },
+    {
+      "source": "/vbcs-interview-questions",
+      "destination": "/"
+    }
+  ]
+}
