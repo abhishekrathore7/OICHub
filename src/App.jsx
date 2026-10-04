@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import OICQuestions from "./pages/OICQuestions";
 import VBCSQuestions from "./pages/VBCSQuestions";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
